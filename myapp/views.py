@@ -26,4 +26,5 @@ def view_model_entries(request):
     entries = TeachersClass.objects.all()  # Query all entries in MyModel
     return render(request, 'app/model_entries.html', {'entries': entries})
 
-
+def single_class(request) :
+    return render(request, 'app/single_class.html')

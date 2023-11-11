@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Entries</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link  rel="stylesheet" href="{% static 'myapp/styles/base.css' %}">
+    <link  rel="stylesheet" href="{% static 'myapp/styles/single_class.css' %}">
+</head>
+<body>
+    <div id="index-container">
+        <div id="nav-container">
+            <div id="navbar">
+                <a href="{% url 'index' %}">
+                    <button id="home">Teacher Home</button>
+                </a>
+                <a href="{% url 'classes' %}">
+
+                    <button id="class-list">Add Classes</button>
+                </a>
+                <a href="{% url 'view_model_entries' %}">
+
+                    <button id="class-list">My Classes</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="content-container">
+            <div id="entry-wrapper">
+                
+                <div id="entry">
+                    <div id="title">
+                        Brandon Fornero
+                    </div>
+                    <div id="descr">
+                        Predicted Grade : 93.46
+                    </div>
+                </div>
+            </div>
+                 <!-- Assuming your model has a __str__ method -->
+                 <div id="entry-wrapper">
+                 <div id="entry">
+                    <div id="title">
+                        Avery Walters
+                    </div>
+                    <div id="descr">
+                        Predicted Grade : 89.30
+                    </div>
+                </div>
+                 </div>
+                 <div id="entry-wrapper">
+
+                <div id="entry">
+                    <div id="title">
+                        Jamie Jones
+                    </div>
+                    <div id="descr">
+                        Predicted Grade : 84.60
+                    </div>
+                </div>
+                 </div>
+
+                <div id="entry-wrapper">
+                
+                <div id="entry">
+                    <div id="title">
+                        Daniel Querrey
+                    </div>
+                    <div id="descr">
+                        Predicted Grade : 80.50
+                    </div>
+                </div>
+                </div>
+                
+                </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>

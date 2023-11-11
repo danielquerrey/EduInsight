@@ -24,7 +24,7 @@ urlpatterns = [
     path('classes/', views.classes, name = "classes"),
     path('add-class/', views.add_teachers_class, name='add_teachers_class'),
     path('model-entries/', views.view_model_entries, name='view_model_entries'),
-
+    path('selected-class/', views.single_class,name = 'single_class'),
     # path('new-entry/', views.create_entry, name='new-entry'),
 
 ] 
