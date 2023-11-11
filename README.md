@@ -15,3 +15,9 @@ Class Page : multiple tab views including
                 2. Survey Results
                     a. Students ranked in most --> least predictive success in class
                     b. Group ranked list in groups
+
+
+
+Ideas : 1. use wellness data to create a status next to each student name to display their wellness
+        2. display bar graph that shows most influential factors in student performance
+        3. "group maker" that automatically makes groups with an even amount of low-performing students and high-performing students
