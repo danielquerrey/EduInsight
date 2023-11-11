@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Entries</title>
+</head>
+<body>
+    <h1>Model Entries</h1>
+    <ul>
+        {% for entry in entries %}
+            <li>{{ entry }}</li>  <!-- Assuming your model has a __str__ method -->
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
     <link  rel="stylesheet" href="{% static 'myapp/styles/base.css' %}">
-
-    <link  rel="stylesheet" href="{% static 'myapp/styles/index.css' %}">
-    <title>Index</title>
+    <link  rel="stylesheet" href="{% static 'myapp/styles/classes.css' %}">
+    <title>Classes</title>
 </head>
 <body>
     <div id="index-container">
@@ -20,14 +19,12 @@
 
                     <button id="class-list">My Classes</button>
                 </a>
-                <a href="{% url 'view_model_entries' %}">
-
-                    <button id="class-list">My Classes</button>
-                </a>
             </div>
         </div>
         <div id="content-container">
-            <h1>hi</h1>
+            <a href="{% url 'add_teachers_class' %}">
+                <button> new entry</button>
+            </a>
         </div>
     </div>
 </body>
