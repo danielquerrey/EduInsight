@@ -20,4 +20,4 @@ Class Page : multiple tab views including
 
 Ideas : 1. use wellness data to create a status next to each student name to display their wellness
         2. display bar graph that shows most influential factors in student performance
-        3. "group maker" that automatically balances low-performing students with high-performing students in a group
+        3. "group maker" that automatically makes groups with an even amount of low-performing students and high-performing students
